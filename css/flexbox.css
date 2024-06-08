@@ -1,3 +1,4 @@
+/* Cabecera */
 .cabecera__container{
     display: flex;
     justify-content: space-between;
@@ -6,12 +7,30 @@
     top: 0;
 }
 
+
 .cabecera__buscar__item{
     display: none;
 }
 
+
 @media(min-width: 834px){
+    /* Canecera */
     .cabecera__buscar__item{
         display: block;
-    }   
+    }
+    
+    /* Rodapie */
+    .rodapie__container{
+        justify-content: space-between;   
+    }
 }
+
+/* Rodapie */
+.rodapie__container{
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+}
+
+
